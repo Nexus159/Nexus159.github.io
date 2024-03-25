@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FFFFFF;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #90C7E3;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+    border: 1px solid #000033;
+    background-image: linear-gradient(to bottom, #d57508, #b35f05);
+}
+
+header {
+    background-color: #7b4804;
+    color: #FFFFFF;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 120px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;
+}
+
+nav {
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    transition: background-color 2s linear;
+    
+}
+header h1{
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    transition: background-color 2s linear;
+}
+
+main {
+    background-color: #FFFFFF;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: block;
+    margin-left: 190px;
+    overflow: auto;
+
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 3em;
+    letter-spacing: 0.25em
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #c00a0a;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+h3 {
+    font-Family: Georgia, 'Times New Roman', serif;
+    color: #000033
+}
+
+main ul {
+    list-style-image: url(marker.gif);
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 2em;
+    margin-left: 190px;
+    background-color: #FFFFFF;
+}
+
+
+table {
+    border: 2px solid #8f4e04;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5em;
+    border: 2px solid #8f4e04;
+    text-align: center;
+}
+
+th {
+    padding: 0.5em;
+    border: 2px solid #8f4e04;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #f28909;
+}
+
+#special {
+    clear: both;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+input[type="submit"] {
+    margin-left: 140px;
+}
+
+
+#homehero {
+    height: 500px;
+    background-image: url(choc-cookies.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+#yurthero {
+    height: 400px;
+    background-image: url(Thin-cookies.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+#trailhero {
+    height: 400px;
+    background-image: url(plan.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px
+}
+
+dt {
+    color: #8e1008;
+
+}
+
+#contact {
+    font-size: 90%;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+.resort {
+    color: #9b0909;
+    font-weight: bold;
+}
+
+
+
+nav a:link {
+    color: #6e3e04;
+}
+
+nav a:visited {
+    color: #5f4203;
+}
+
+nav a:hover {
+    color: #ae0808;
+    background-color: #a8760a;    
+}
+header h1:hover {
+    background-color: #a8760a; 
+}
+
+
+header a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header a:visited {
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #ffffff;
+
+}
